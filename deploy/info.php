@@ -37,6 +37,18 @@ $app['core_requires'] = array(
     'app-groups-core',
     'app-network-core',
     'freeswitch-config-vanilla',
+    'freeswitch-lang-de',
+    'freeswitch-lang-es',
+    'freeswitch-lang-fr',
+    'freeswitch-lang-he',
+    'freeswitch-lang-pt',
+    'freeswitch-lang-ru',
+    'freeswitch-lang-sv',
+    'freeswitch-sounds-music',
+    'freeswitch-sounds-en-ca-june-all',
+    'freeswitch-sounds-en-us-callie-all',
+    'freeswitch-sounds-fr-ca-june-all',
+    'freeswitch-sounds-ru-RU-elena-all',
 );
 
 $app['core_directory_manifest'] = array(

@@ -14,7 +14,7 @@ Requires: %{name}-core = 1:%{version}-%{release}
 Requires: app-base
 
 %description
-FreeSWITCH - a description goes here.
+FreeSWITCH is an open-source media application designed to support popular protools such as SIP and WebRTC and provides a platform to develop voice and video applications.
 
 %package core
 Summary: FreeSWITCH - Core
@@ -25,9 +25,21 @@ Requires: app-users-core >= 1:2.3.23
 Requires: app-groups-core
 Requires: app-network-core
 Requires: freeswitch-config-vanilla
+Requires: freeswitch-lang-de
+Requires: freeswitch-lang-es
+Requires: freeswitch-lang-fr
+Requires: freeswitch-lang-he
+Requires: freeswitch-lang-pt
+Requires: freeswitch-lang-ru
+Requires: freeswitch-lang-sv
+Requires: freeswitch-sounds-music
+Requires: freeswitch-sounds-en-ca-june-all
+Requires: freeswitch-sounds-en-us-callie-all
+Requires: freeswitch-sounds-fr-ca-june-all
+Requires: freeswitch-sounds-ru-RU-elena-all
 
 %description core
-FreeSWITCH - a description goes here.
+FreeSWITCH is an open-source media application designed to support popular protools such as SIP and WebRTC and provides a platform to develop voice and video applications.
 
 This package provides the core API and libraries.
 
