@@ -45,9 +45,13 @@ $app['core_requires'] = array(
     'freeswitch-lang-ru',
     'freeswitch-lang-sv',
     'freeswitch-sounds-music',
+    'freeswitch-sounds-en-ca-june',
     'freeswitch-sounds-en-ca-june-all',
+    'freeswitch-sounds-en-us-callie',
     'freeswitch-sounds-en-us-callie-all',
+    'freeswitch-sounds-fr-ca-june',
     'freeswitch-sounds-fr-ca-june-all',
+    'freeswitch-sounds-ru-RU-elena',
     'freeswitch-sounds-ru-RU-elena-all',
 );
 

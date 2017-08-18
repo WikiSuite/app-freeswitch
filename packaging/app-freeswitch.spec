@@ -33,9 +33,13 @@ Requires: freeswitch-lang-pt
 Requires: freeswitch-lang-ru
 Requires: freeswitch-lang-sv
 Requires: freeswitch-sounds-music
+Requires: freeswitch-sounds-en-ca-june
 Requires: freeswitch-sounds-en-ca-june-all
+Requires: freeswitch-sounds-en-us-callie
 Requires: freeswitch-sounds-en-us-callie-all
+Requires: freeswitch-sounds-fr-ca-june
 Requires: freeswitch-sounds-fr-ca-june-all
+Requires: freeswitch-sounds-ru-RU-elena
 Requires: freeswitch-sounds-ru-RU-elena-all
 
 %description core
@@ -50,7 +54,7 @@ This package provides the core API and libraries.
 %install
 mkdir -p -m 755 %{buildroot}/usr/clearos/apps/freeswitch
 cp -r * %{buildroot}/usr/clearos/apps/freeswitch/
-
+rm -f %{buildroot}/usr/clearos/apps/freeswitch/README.md
 install -d -m 0755 %{buildroot}/var/clearos/freeswitch
 install -d -m 0755 %{buildroot}/var/clearos/freeswitch/backup
 install -D -m 0644 packaging/freeswitch.php %{buildroot}/var/clearos/base/daemon/freeswitch.php
@@ -90,7 +94,9 @@ exit 0
 
 %files core
 %defattr(-,root,root)
+%doc README.md
 %exclude /usr/clearos/apps/freeswitch/packaging
+%doc README.md
 %exclude /usr/clearos/apps/freeswitch/unify.json
 %dir /usr/clearos/apps/freeswitch
 %dir /var/clearos/freeswitch
