@@ -39,4 +39,4 @@ $this->lang->load('freeswitch');
 // Form
 ///////////////////////////////////////////////////////////////////////////////
 
-echo infobox_highlight(lang('freeswitch_app_name'), '...');
+echo infobox_highlight(lang('freeswitch_app_name'), 'Just a placeholder.');
