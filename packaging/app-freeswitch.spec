@@ -1,7 +1,7 @@
 
 Name: app-freeswitch
 Epoch: 1
-Version: 1.0.1
+Version: 1.0.2
 Release: 1%{dist}
 Summary: FreeSWITCH
 License: GPLv3
@@ -14,7 +14,7 @@ Requires: %{name}-core = 1:%{version}-%{release}
 Requires: app-base
 
 %description
-FreeSWITCH is an open-source media application designed to support popular protocols such as SIP and WebRTC and provides a platform to develop voice and video applications.
+FreeSWITCH is an open-source media application designed to support popular prototols such as SIP and WebRTC and provides a platform to develop voice and video applications.
 
 %package core
 Summary: FreeSWITCH - Core
@@ -43,7 +43,7 @@ Requires: freeswitch-sounds-ru-RU-elena
 Requires: freeswitch-sounds-ru-RU-elena-all
 
 %description core
-FreeSWITCH is an open-source media application designed to support popular protocols such as SIP and WebRTC and provides a platform to develop voice and video applications.
+FreeSWITCH is an open-source media application designed to support popular prototols such as SIP and WebRTC and provides a platform to develop voice and video applications.
 
 This package provides the core API and libraries.
 
